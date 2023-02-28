@@ -1,0 +1,239 @@
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: #ffa500;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#klicka {
+    padding-right: 150px
+}
+
+#logo {
+    padding-left: 150px;
+}
+
+.logobild {
+    width: 60%
+}
+
+
+.hue a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: #805300;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.hue a:hover {
+    color: #000000
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+main {
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.forstasidan {
+    background-image: url('sirtobys.jpg');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.text {
+    width: 80%;
+    padding-right: 25px;
+}
+
+footer {
+    height: 150px;
+    background-color: #ffa500;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+}
+
+.fa:hover {
+    color: white;
+    background-color: #000000;
+}
+
+.fa-facebook {
+    background: #cc8500;
+    color: rgb(0, 0, 0);
+}
+
+.fa-instagram {
+    background: #cc8500;
+    color: rgb(0, 0, 0);
+}
+
+
+
+#ikoner {
+    padding-left: 150px;
+}
+
+.kontakt {
+    padding-right: 150px;
+}
+
+.matbilder {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5a2fb34c2278e7f653973c78/1514904908317-98O01CN6UIQL72DVMG02/Biobaren_mat_%C3%B6l_milj%C3%B6_FOTO_BJ%C3%96RN_LINDBERG_DGPFOTO.SE-13.jpg?format=1500w');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #ffa500;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=date] {
+    margin-bottom: 20px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #000000;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.bokabild {
+    background-image: url('https://cdn.shopify.com/s/files/1/2400/0975/files/english-pub-ale2_cropped_2048x.jpg');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+@media only screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+        padding: 0;
+    }
+    #logo {
+        min-width: 50%;
+        padding-left: 15px;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: fit-content;
+        margin-bottom: 50px;
+    }
+    .text {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #ikoner {
+        padding: 0px;
+    }
+    .kontakt {
+        padding: 0px;
+    }
+    body {
+        padding: 0px;
+    }
+    main {
+        padding: 0px;
+    }
+    #klicka {
+        padding: 0px;
+        font-size: 80%;
+    }
+    .kontakt h2{
+        font-size: 20px;
+    }
+    .kontakt p {
+        font-size: 15px;
+    }
+    .kontakt {
+        padding-right: 15px;
+    }
+  }

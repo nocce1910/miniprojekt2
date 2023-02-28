@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sir Toby´s - Boka</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="Sir-Tobys-boka" content="Sir Toby's är en klassisk engelsk pub och restaurang med fullständiga rättigheter.">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img src="SIR TOBYS.jpg" alt="logo" class="logobild">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <div id="klicka">
+                    <li" class="hue"> <a href="index.html">Hem</a> </li>
+                        <li" class="hue"> <a href="meny.html">Meny</a> </li>
+                            <li" class="hue"> <a href="boka.html">Boka</a> </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h4>Boka här!</h4> <br>
+            <form action="action_page.php">
+
+                <label for="Datum">Datum:</label><br>
+                <input type="date" id="datum" name="datum"><br>
+
+
+                <label for="fname">Förnamn</label>
+                <input type="text" id="fname" name="firstname" placeholder="Ditt förnamn ...">
+
+                <label for="lname">Efternamn</label>
+                <input type="text" id="lname" name="lastname" placeholder="Ditt efternamn ...">
+
+
+
+                <label for="tid">Tid</label>
+                <select id="tid" name="tid">
+                    <option value="18.00">18.00</option>
+                    <option value="20.00">20.00</option>
+                    <option value="22.00">22.00</option>
+                </select>
+
+                <label for="meddelande">Meddelande</label>
+                <textarea id="meddelande" name="meddelande" placeholder="Skriv här ..." style="height:200px"></textarea>
+
+                <input type="submit" value="Skicka">
+
+            </form>
+        </div>
+
+        <div class="bokabild">
+        </div>
+    </main>
+
+
+    <footer>
+        <div id="ikoner">
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <a href="https://www.facebook.com/people/Sir-Tobys-sportbar-och-restaurang/100069270806563/"
+                class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.instagram.com/sirtobyspub/" class="fa fa-instagram" target="_blank"></a>
+        </div>
+
+        <div class="kontakt">
+            <h2>Kontaktuppgifter</h2>
+            <p><b>Telefon:</b> 040-78990</p>
+            <p><b>Mejl:</b> info@sirtobys.se</p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
